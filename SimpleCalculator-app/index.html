@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=S, initial-scale=1.0" />
+    <title>Simple Calculator App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display" id="display">0</div>
+      <div class="buttons">
+        <!-- calculator-digits -->
+
+        <button class="clear">c</button>
+        <button class="operator" data-op="/">÷</button>
+        <button class="operator" data-op="*">x</button>
+        <button class="del">
+          <i class="fas fa-backspace fa-small fa-fw"></i>
+        </button>
+
+        <button class="digit">7</button>
+        <button class="digit">8</button>
+        <button class="digit">9</button>
+        <button class="operator" data-op="-">-</button>
+
+        <button class="digit">4</button>
+        <button class="digit">5</button>
+        <button class="digit">6</button>
+        <button class="operator" data-op="+">+</button>
+
+        <button class="digit">1</button>
+        <button class="digit">2</button>
+        <button class="digit">3</button> 
+        <button class="equal">=</button>
+
+
+        <button class="operator">%</button>
+        <button class="digit">0</button>
+        <button class="digit">.</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
